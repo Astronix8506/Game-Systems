@@ -139,6 +139,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DestrucibleHealth
   maxHealth: 100
   currentHealth: 0
+  _resourceStages:
+  - Stageicon: {fileID: 21300000, guid: 5287fd914677cc342998bd9457097faf, type: 3}
+    requiredPercent: 100
+  - Stageicon: {fileID: 21300000, guid: d7f00050b6876974e9fe9804b8fffe60, type: 3}
+    requiredPercent: 75
+  - Stageicon: {fileID: 21300000, guid: 0306def63d8f2824c83369ce7e7a8eb6, type: 3}
+    requiredPercent: 25
+  - Stageicon: {fileID: 21300000, guid: c46215190e6013c4482ce1794dab2978, type: 3}
+    requiredPercent: 0
+  spriteRenderer: {fileID: 224781052527586683}
 --- !u!58 &5919034668895847525
 CircleCollider2D:
   m_ObjectHideFlags: 0
